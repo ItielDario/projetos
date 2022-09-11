@@ -81,7 +81,6 @@ header .logo{
 .section_2 > h2{
     color: var(--color-font);
     text-transform: uppercase;
-
 }
 
 .cards{
@@ -112,12 +111,9 @@ header .logo{
 }
 
 .section_3{
-    margin-top: 200px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
- 
 }
 
 .button_2{
@@ -134,11 +130,6 @@ header .logo{
     font-size: 48px;
     color: var(--color-buttom);
     margin-top: 40px;
-}
-
-.section_3 p{
-    margin: -30px 0 100px 0;
-    color: var(--color-font);
 }
 
 footer{
@@ -170,13 +161,25 @@ footer p{
     font-style: italic;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width:600px){
+    .logo img{
+        width: 11vw;
+        height: 10vw;
+    }
+    
+    .logo h2{
+        color: var(--color-font);
+        font-size: 6vw;
+    }
+
     .section_1{
         flex-direction: column;
         align-items: center;
+        margin-top: 15vw;
     }
 
     .ebook img{
+        width: 70vw;
         margin: 0px;
     }
 
@@ -197,24 +200,65 @@ footer p{
     }
 
     .button{
-        text-align: center;
+        padding: 10px 30px;
         width: 45%;
         font-size: 4vw;
         margin-top: 20px;
     }
 
     .section_2{
-        margin-top: 120px;
+        margin-top: 30vw;
+    }
+
+    .section_2 > h2{
+        font-size: 6.5vw;
     }
 
     .cards{
         flex-direction: column;
-        margin-top: 0px;
+        margin: 0 0 30vw 0;
     }
 
     .card{
         margin: 20px 0;
         width: 50vw;
         height: 200px;
+    }
+
+    .card p{
+        font-size: 4vw;
+    }
+
+    .button_2{
+        padding: 10px 20px;
+        font-size: 4vw;
+    }
+
+    .section_3 h2{
+        font-size: 10vw;
+        margin-top: 4vw;
+    }
+
+    .section_3 p{
+        font-size: 4vw;
+        color: var(--color-font);
+        margin: -9vw 0 30vw 0;
+    }
+
+    footer{
+        justify-content: flex-end;
+        height: 15vw;
+        padding-bottom: 30px;
+    }
+
+    .button_footer{
+        padding: 8px 25px;
+        margin-bottom: ;
+        font-size: 5vw;
+    }
+
+    footer p{
+        font-size: 3vw;
+        margin-top: 4vw;
     }
 }
