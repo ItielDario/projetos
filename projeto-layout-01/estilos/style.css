@@ -18,6 +18,7 @@ body{
 }
 
 .container{
+    width: 85vw;
     max-width: 830px;
     margin: auto;
 }
@@ -89,7 +90,7 @@ header .logo{
     align-items: center;
 
     width: 100%;
-    margin: 50px 0px;
+    margin: 20px 0px 150px 0px;
 }
 
 .card{
@@ -129,7 +130,13 @@ header .logo{
 .section_3 h2{
     font-size: 48px;
     color: var(--color-buttom);
-    margin-top: 40px;
+    margin: 40px 0 -20px 0;
+}
+
+.section_3 p{
+    color: var(--color-font);
+    font-size: 20px;
+    margin-bottom: 140px;
 }
 
 footer{
@@ -151,24 +158,23 @@ footer{
     color: white;
     text-decoration: none;
     font-weight: bold;
-    margin-top: -45px;
+    margin-top: -40px;
 }
 
 footer p{
     color: var(--color-font);
-    font-size: 14px;
-    margin-top: 50px;
+    font-size: 18px;
+    margin-top: 30px;
     font-style: italic;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:750px){
     .logo img{
         width: 11vw;
         height: 10vw;
     }
     
     .logo h2{
-        color: var(--color-font);
         font-size: 6vw;
     }
 
@@ -202,8 +208,9 @@ footer p{
     .button{
         padding: 10px 30px;
         width: 45%;
-        font-size: 4vw;
+        font-size: 3.5vw;
         margin-top: 20px;
+        text-align: center;
     }
 
     .section_2{
@@ -211,7 +218,7 @@ footer p{
     }
 
     .section_2 > h2{
-        font-size: 6.5vw;
+        font-size: 6vw;
     }
 
     .cards{
@@ -235,30 +242,126 @@ footer p{
     }
 
     .section_3 h2{
-        font-size: 10vw;
+        font-size: 7vw;
         margin-top: 4vw;
     }
 
     .section_3 p{
-        font-size: 4vw;
+        font-size: 3vw;
         color: var(--color-font);
-        margin: -9vw 0 30vw 0;
+        margin: 20px 0 30vw 0;
     }
 
     footer{
         justify-content: flex-end;
-        height: 15vw;
-        padding-bottom: 30px;
+        height: 13vw;
+        padding-bottom: 5vw;
     }
 
     .button_footer{
         padding: 8px 25px;
-        margin-bottom: ;
         font-size: 5vw;
     }
 
     footer p{
         font-size: 3vw;
+        margin-top: 3vw;
+    }
+}
+
+
+@media screen and (min-width:750px) and (max-width: 900px) {
+    .logo img{
+        width: 7vw;
+        height: 7vw;
+    }
+    
+    .logo h2{
+        font-size: 4vw;
+    }
+
+    .ebook img{
+        width: 30vw;
+        margin-right: 30px;
+    }
+
+    main{
+        width: 85vw;
+    }
+
+    .action_title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .action_title h2{
+        font-size: 4vw;
+    }
+
+    .button{
+        padding: 10px 30px;
+        width: 50%;
+        font-size: 2vw;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .section_2{
+        margin-top: 20vw;
+    }
+
+    .section_2 > h2{
+        font-size: 4vw;
+    }
+
+    .cards{
+        margin: 0 0 15vw 0;
+    }
+
+    .card{
+        margin: 20px 0;
+        width: 25vw;
+        height: 200px;
+    }
+
+    .card p{
+        font-size: 2vw;
+    }
+
+    .button_2{
+        padding: 10px 20px;
+        font-size: 3vw;
+    }
+
+    .section_3 h2{
+        font-size: 7vw;
         margin-top: 4vw;
     }
+
+    .section_3 p{
+        font-size: 3vw;
+        color: var(--color-font);
+        margin: 2vw 0 15vw 0;
+    }
+
+    footer{
+        justify-content: flex-end;
+        height: 10vw;
+        padding-bottom: 1vw;
+    }
+
+    .button_footer{
+        padding: 8px 20px;
+        font-size: 4vw;
+        margin-bottom: -1vw;
+        margin-bottom: 2vw;
+    }
+
+    footer p{
+        font-size: 2vw;
+        margin: 0 0 2vw 0;
+    }
+
 }
