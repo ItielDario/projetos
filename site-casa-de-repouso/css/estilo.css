@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@400;700 & display=swap');
+
 
 *{
 	margin: 0;
@@ -7,18 +9,19 @@
 }
 
 header{
-	background-color: #eeeae5;
+	background-color: #FF806C;
 	padding: 20px 0;
 
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	filter: drop-shadow( 0 2px 5px rgba(0, 0, 0, 0.219));
 }
 
 .logo{
 	width: 170px;
 	height: 55px;
-	background-color: yellow;
+	background-color: rgb(216, 216, 130);
 	
 }
 
@@ -37,82 +40,54 @@ ul > li{
 ul > li > a{
 	padding: 10px;
 	text-decoration: none;
-	color:black;
+	color:white;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.151);
 }
 
 ul > li > a:hover {
-	color: #19948e;
-	border-bottom: 3px solid #19948e;
-	transform: translate(0.3s);
+	color: #455A64;
+	border-bottom: 3px solid #455A64;
 }
 
 ul > li > a.botao_login {
-	color: #be7a27 ;
+	color: #455A64;
 	font-size: 22px;
 }
 
 ul li a.botao_login:hover {
-	color:#FF8C00;
-	border-bottom: 3px solid #f8ac50;
+	color:#9b611b;
+	border-bottom: 3px solid #9b611b;
 }
 
 
 /*BLOCO 1*/
-.bloco1home {
-	background-image: url('../imagens/casa-de-repouso-01.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: 0.8;
+.introducao {
 	height: 500px;
-	padding: 30px 190px;
+	padding: 30px 0;
+	background-color: #fff0f0;
+	display: flex;
+	justify-content: space-around;
 }
 
-.titulo {
-	height: auto;
-	width: 500px;
-	float: center;
+.texto_principal{
+	padding: 50px;
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
-.titulo h1{
-	color:black;
-	font-size: 28px;
-	font-family: "Kanit", Sans-serif;
+.introducao h1{
+	color: #FF806C;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.281);
 }
 
-hr {
-	background-color: #4876FF;
-	width: 490px;
-	height: 4px;
-	border: none;
-}
-
-.box_esquerda{
-	width: 450px;
-	height: 300px;
-	float: left;
-	position: relative;
-	margin: 20px auto auto auto;
-}
-
-.box_esquerda p{
-	color:black;
-	font-size: 17px;
-	line-height: 21px;
-	font-family: "Hind", Sans-serif;
-}
-
-.box_direita{
-	width: 450px;
-	height: 300px;
-	float:right;
-	position: relative;
-	margin: 20px auto auto auto;
-}
-
-.box_direita p{
-	color:black;
-	font-size: 17px;
-	line-height: 21px;
+.introducao p{
+	margin-top: 30px;
 	font-family: "Hind", Sans-serif;
 }
 
@@ -120,63 +95,43 @@ hr {
 .bloco1 {
 	background-color: white;
 	height: 490px;
-	position: relative;
-	margin: auto auto auto auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.imagem_box {
-	background:url('../imagens/cuidador-de-idosos.png') center no-repeat ;
+.imagem_box img{
+	border-radius: 50%;
 	border: 5px solid #E6E6FA;
-	width: 500px;
+	width: 300px;
 	height: 300px;
-	float: left;
-	position: relative;
-	margin: 40px 20px 70px 170px;
+	margin-right: 100px;
 }
 
 .box_txt1{
 	width: 440px;
 	height: auto;
-	margin: 40px 170px 70px 10px;
-	position: relative;
-	float: left;
-}
-
-.box_txt1 p{
-	color:black;
-	text-align:right;
-	font-size: 16px;
-	font-family: "Hind", Sans-serif;
-	line-height: 21px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .box_txt1 h3{
 	color:black;
 	text-align:right;
 	font-size: 24px;
-	
 	font-family: "Kanit", Sans-serif;
 	line-height: 21px;
+	margin-bottom: 25px;
 }
 
-.botao_saiba_mais{
-  	background-color: white;
-	width: 150px;
-	height: 50px;
-	border: 2px solid #20B2AA;
-	margin: 30px auto auto auto;
-}
-
-.botao_saiba_mais:hover{
-	background-color: #20B2AA;
-	border: 2px solid #20B2AA;
-	color:white;
-}
-
-.botao_saiba_mais a{
-  	font-size: 16px;
+.box_txt1 p{
 	color:black;
-	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	font-family: "Hind", Sans-serif;
+	line-height: 21px;
 }
 
 
