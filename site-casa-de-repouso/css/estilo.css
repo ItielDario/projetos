@@ -6,6 +6,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: "Hind", Sans-serif;
 }
 
 header{
@@ -49,18 +50,9 @@ ul > li > a:hover {
 	border-bottom: 3px solid #455A64;
 }
 
-ul > li > a.botao_login {
-	color: #455A64;
-	font-size: 22px;
-}
-
-ul li a.botao_login:hover {
-	color:#9b611b;
-	border-bottom: 3px solid #9b611b;
-}
 
 
-/*BLOCO 1*/
+/*INTRODUÇÃO*/
 .introducao {
 	height: 500px;
 	padding: 30px 0;
@@ -83,21 +75,20 @@ ul li a.botao_login:hover {
 	color: #FF806C;
 	font-size: 50px;
 	font-family: 'Roboto', sans-serif;
-	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.281);
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.233);
 }
 
 .introducao p{
 	margin-top: 30px;
-	font-family: "Hind", Sans-serif;
 }
 
-/*Bloco 2*/
-.bloco1 {
-	background-color: white;
+/*BLOCO*/
+.bloco {
 	height: 490px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
+	padding: 0 200px;
 }
 
 .imagem_box img{
@@ -105,7 +96,6 @@ ul li a.botao_login:hover {
 	border: 5px solid #E6E6FA;
 	width: 300px;
 	height: 300px;
-	margin-right: 100px;
 }
 
 .box_txt1{
@@ -118,7 +108,7 @@ ul li a.botao_login:hover {
 }
 
 .box_txt1 h3{
-	color:black;
+	color:rgb(78, 78, 78);
 	text-align:right;
 	font-size: 24px;
 	font-family: "Kanit", Sans-serif;
@@ -127,95 +117,172 @@ ul li a.botao_login:hover {
 }
 
 .box_txt1 p{
-	color:black;
+	color:rgb(34, 34, 34);
 	text-align: center;
 	font-size: 16px;
-	font-family: "Hind", Sans-serif;
 	line-height: 21px;
 }
 
 
-/*bloco3*/
 
-.bloco2 {
-	background-color: #B0E0E6;
-	height: 490px;
-	position: relative;
-	margin: auto auto auto auto;
+/*BLOCO DIFERENTE*/
+
+.bloco_diferente {
+	background-color: #366f8a7a;
+	display: flex;
+	flex-direction: row-reverse;
 }
 
 
-/*CRIAR CONTA*/
 
-.criar_conta {
-	background-color: #FFE4B5;
-	height: 190px;
-	position: relative;
-	margin: auto auto auto auto;
+/*RECONHECIMENTO*/
+
+.reconhecimento {
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 100px 120px 100px;
 }
 
-
-.criar_conta .box_txt2{
-	width: 440px;
-	height: auto;
-	margin: 50px 50px 30px 200px;
-	position: relative;
-	float:left;
+.title_reconhecimento{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
-.criar_conta .box_txt2 p{
-	color:black;
-	text-align:left;
+.reconhecimento .title_reconhecimento h2{
+	color:#FF806C;
+
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.144);
+	margin-bottom: 10px;
+}
+
+.reconhecimento .title_reconhecimento p{
+	color: rgb(78, 78, 78);
 	font-size: 16px;
-	font-family: "Hind", Sans-serif;
-	line-height: 21px;
+	margin-bottom: 50px;
 }
 
-.criar_conta .box_txt2 h3{
-	color:black;
-	text-align:left;
-	font-size: 24px;
-	font-family: "Kanit", Sans-serif;
-	line-height: 21px;
+.todos_feedbacks{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
 }
 
-.criar_conta .botao_criar_conta{
-  	background-color: white;
-	width: 270px;
-	height: 70px;
-	border: 2px solid  #4682B4;
-	margin: 60px 0px;
-	font-weight:bolder;
+.feedback{
+	background-color: white;
+	box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.144);
+	border-radius: 7px;
+	width: 330px;
+	height: 200px;
+	box-sizing: border-box;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
-.criar_conta .botao_criar_conta:hover{
-	background-color: #4682B4;
-	border: 2px solid #4682B4;
+.feedback:hover{
+	box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.226);
 }
 
-.criar_conta .botao_criar_conta a{
-  	font-size: 16px;
-	color:black;
-	text-decoration: none;
+.feedback p{
+	color:rgb(78, 78, 78);
+}
+
+.feedback .user{
+	display: flex;
+	align-items: center;
+}
+
+.user img{
+	width: 70px;
+	border-radius: 50%;
+	margin-right: 20px;
+	border: 4px solid #f1d78d;
+}
+
+.user p{
+	color: #eed444;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.user2 img{
+	border: 4px solid rgb(167, 190, 255);
+}
+
+.user2 p{
+	color: #6c87ff;
+}
+
+.user3 img{
+	border: 4px solid rgb(147, 233, 154);
+}
+
+.user3 p{
+	color: #57e697;
 }
 
 
 
-/*Bloco final*/
-
-
-
-
-/*Rodape*/
-
-
+/*RODADPE*/
 footer{
-	background: #1f3c58;
-	color: #ebebeb;
-	padding: 20px 0;
+	background-image: linear-gradient(#25414ee7, #436777d3);
+	padding: 30px 0 50px 0;
 	text-align: center;
-	font-size: 13px;
-	height: 50px;
-	width:auto;
-	font-family: "Hind", Sans-serif;
+}
+
+.contato{
+	margin: auto;
+	width: 80vw;
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+	border-bottom: 1px dotted white;
+}
+
+.contato h4{
+	color: white;
+	font-size: 18px;
+	margin-bottom: 7px;
+	text-transform: uppercase;
+}
+
+.contato p{
+	color: white;
+	font-size: 16px;
+}
+
+#telefone::before{
+	color: white;
+	content: '\260E\00A0';
+}
+
+#email::before{
+	color: white;
+	content: '\2709\00A0';
+}
+
+.redes img{
+	width: 40px;
+}
+
+.redes img:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.criacao{
+	margin-top: 50px;
+}
+
+.criacao p{
+	color: white;
+	font-size: 14px;
 }
