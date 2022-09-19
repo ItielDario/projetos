@@ -1,226 +1,176 @@
-.header{
-	height: auto;
-	width:auto;
-	background-color:#F8F8FF;
-	padding: 50px 130px 30px 170px;
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@400;700 & display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Hind", Sans-serif;
+}
+
+header{
+	background-color: #FF806C;
+	padding: 20px 0;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	filter: drop-shadow( 0 2px 5px rgba(0, 0, 0, 0.219));
 }
 
 .logo{
 	width: 170px;
-	float:left;
 	height: 55px;
-	position: relative;
-	background-color: yellow;
-	margin: -25px 0px 0px 0px;
+	background-color: rgb(216, 216, 130);
+	
 }
 
-.pocisao{
-	height: auto;
-	width: auto;
-	position: relative;
-}
-
-ul.menu{
+ul{
 	list-style: none;
-	text-align: right;
 }
 
-.menu li{
-	display: inline;
-	margin: 60px 40px 0px 0px;
+ul > li{
+	display: inline-block;
+	margin-left: 30px;
 	font-size: 20px;
-	position: relative;
-	font-family: "Ubuntu";
+	font-family: "Ubuntu", sans-serif;
 	font-weight: bolder;
 }
 
-.menu li a{
+ul > li > a{
+	padding: 10px;
 	text-decoration: none;
-	color:black;
+	color:white;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.151);
 }
 
-.menu li a:hover {
-	color: #4F4F4F;
-}
-
-.menu li a.diferente {
-	color: #FF8C00;
-	font-size: 22px;
-}
-
-.menu li a.diferente:hover {
-	color:#FFD700;
-}
-
-@charset "utf-8";
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+ul > li > a:hover {
+	color: #455A64;
+	border-bottom: 3px solid #455A64;
 }
 
 
 
-/*Bloco 1*/
-
-.bloco1home {
-	background-color:white;
-	height: 80px;
-	position: relative;
-	margin: auto auto auto auto;
-	padding: 30px 190px;
+/*TITLE*/
+.title_principal{
+	display: flex;
+	justify-content: center;
 }
 
-.titulo {
-	height: auto;
-	width: 500px;
-	float: center;
-}
-
-.titulo h1{
-	color:black;
-	font-size: 28px;
-	font-family:Sans-serif;
-	font-family: "Kanit";
-}
-
-hr {
-	background-color: #4876FF;
-	width: 490px;
-	height: 4px;
-	border: none;
+.title_principal h1{
+	display: inline-block;
+	color:#FF806C;
+	border-bottom: 4px solid #ff806cbe;
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.144);
+	margin: 100px 0 50px 0;
 }
 
 
-/*Bloco 2*/
-.bloco2home {
-	background-color: #B0E0E6;
-	height: 490px;
-	position: relative;
-	margin: auto auto auto auto;
+
+/*CONTEÚDO*/
+.conteudo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 50px;
+	margin-bottom: 100px;
 }
 
-.bloco2home .imagem1 {
-	background:url('../imagens/idosos.jpg') center no-repeat ;
-	border: 5px solid #E6E6FA;
-	width: 500px;
-	height: 300px;
-	float: left;
-	position: relative;
-	margin: 40px 20px 70px 170px;
+.image_conteudo{
+	margin-right: 100px;
+	width: 45%;
 }
 
-.bloco2home .box_txt1{
-	width: 440px;
-	height: auto;
-	margin: 50px 170px 70px 10px;
-	position: relative;
-	float: left;
+.conteudo img{
+	width: 100%;
 }
 
-.bloco2home .box_txt1 p{
-	color:black;
-	text-align:center;
+form{
+	width: 50%;
+}
+
+form > p{
+	color: rgb(58, 58, 58);
 	font-size: 16px;
-	font-family: "Hind";
-	line-height: 22px;
+	margin-bottom: 50px;
 }
 
-.bloco2home .box_txt1 h3{
-	color:black;
-	text-align:center;
-	font-size: 24px;
-	font-family: "Kanit";
-	line-height: 21px;
+.campos_horizontais{
+	display: flex;
+	width: 100%;
 }
 
-
-/*Bloco 4 da home*/
-
-.bloco4home {
-	background-color: #FFE4B5;
-	height: 190px;
-	position: relative;
-	margin: auto auto auto auto;
+.campos_horizontais .nome{
+	width: 50%;
+	margin-right: 30px;
 }
 
-
-.bloco4home .box_txt2{
-	width: 440px;
-	height: auto;
-	margin: 50px 50px 30px 200px;
-	position: relative;
-	float:left;
+.campos_horizontais .email{
+	width: 50%;
 }
 
-.bloco4home .box_txt2 p{
-	color:black;
-	text-align:left;
-	font-size: 16px;
-	font-family: "Hind";
-	line-height: 21px;
-}
-
-.bloco4home .box_txt2 h3{
-	color:black;
-	text-align:left;
-	font-size: 24px;
-	font-family: "Kanit";
-	line-height: 21px;
-}
-
-.bloco4home .testando3{
-  	background-color: white;
-	width: 270px;
-	height: 70px;
-	border: 2px solid  #4682B4;
-	margin: 60px 0px;
-	font-weight:bolder;
-}
-
-.bloco4home .testando3:hover{
-	background-color: #4682B4;
-	border: 2px solid #4682B4;
-}
-
-.bloco4home .testando3 a{
-  	font-size: 16px;
-	color:black;
-	text-decoration: none;
+.campos{
+	display: flex;
+	flex-direction: column;
 }
 
 
-
-/*Bloco final*/
-
-
-
-
-/*Rodape*/
-
-
-.footer{
-	background: #1f3c58;
-	color: #ebebeb;
-	padding: 20px 0;
+/*RODADPE*/
+footer{
+	background-image: linear-gradient(#25414ee7, #436777d3);
+	padding: 30px 0 50px 0;
 	text-align: center;
-	font-size: 13px;
-	height: 50px;
-	width:auto;
-	font-family: "Hind"
+}
+
+.contato{
+	margin: auto;
+	width: 80vw;
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+	border-bottom: 1px dotted white;
+}
+
+.contato h4{
+	color: white;
+	font-size: 18px;
+	margin-bottom: 7px;
+	text-transform: uppercase;
+}
+
+.contato p{
+	color: white;
+	font-size: 16px;
+}
+
+#telefone::before{
+	color: white;
+	content: '\260E\00A0';
+}
+
+#email::before{
+	color: white;
+	content: '\2709\00A0';
+}
+
+.redes img{
+	width: 40px;
+}
+
+.redes img:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.criacao{
+	margin-top: 50px;
+}
+
+.criacao p{
+	color: white;
+	font-size: 14px;
 }
