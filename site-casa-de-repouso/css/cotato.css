@@ -7,6 +7,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: "Hind", Sans-serif;
+	color: rgb(100, 100, 100);
 }
 
 header{
@@ -115,7 +116,38 @@ form > p{
 .campos{
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 10px;
 }
+
+.campos label{
+	color: rgb(58, 58, 58);
+	font-weight: bold;
+}
+
+.campos input, textarea{
+	display: inline-block; /*PARA COLOCAR UM BORDA DENTRO TEM QUE SER DO TIPO BLOCK*/
+	padding: 10px;
+	background-color: rgb(216, 216, 216);
+	border: none;
+	border-radius: 7px;
+	outline: none;
+	border: 1px solid rgb(216, 216, 216);
+}
+
+input:focus, textarea:focus{ /*ALTERA O INPUT SELECIONADO*/
+	border: 1px solid rgba(0, 0, 0, 0.123); /*QUANDO CLICAR A BORDA MUDA DE COR*/
+}
+
+input:-webkit-autofill{ /*ALTERA OS CAMPOS DO INPUT QUE FORAM PREENCHIDOS AUTOMATICAMENTE*/
+	-webkit-box-shadow: 0 0 0 30px rgb(216, 216, 216) inset; /*BACKGROUND-COLOR*/
+	-webkit-text-fill-color: rgb(100, 100, 100); 
+}
+
+textarea:-webkit-autofil{ /*ALTERA OS CAMPOS DO TEXTAREA QUE FORAM PREENCHIDOS AUTOMATICAMENTE*/
+	-webkit-box-shadow: 0 0 0 30px rgb(216, 216, 216) inset; /*BACKGROUND-COLOR*/
+	-webkit-text-fill-color: rgb(100, 100, 100); 
+}
+
 
 
 /*RODADPE*/
