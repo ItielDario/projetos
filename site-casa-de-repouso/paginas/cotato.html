@@ -2,13 +2,10 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8" />
-	<title>Serviço - Casa de repouso Kauanhama</title>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Ubuntu">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Kanit">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Hind">
+	<title>Contato - Casa de repouso Kauanhama</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind">
 	<link rel="stylesheet" href="../css/cotato.css" />
 </head>
 <body>
@@ -36,7 +33,7 @@
 				<img src="../imagens/nursing-home-animate-2.svg" alt="">
 			</div>
 
-			<form>
+			<form autocomplete="on">
 				<p>Dúvidas? Quer  mais informações? Entre em contato com a nossa equipe pelo formulário a seguir ou pelo telefone. Teremos prazer em atendê-lo.</p>
 
 				<div class="campos_horizontais">
@@ -46,17 +43,21 @@
 					</div>
 					<div class="campos email">
 						<label for="iemail">Email</label>
-						<input type="email" name="email" id="iemail" placeholder="Email para contato">
+						<input type="email" name="email" id="iemail" required placeholder="Email para contato">
 					</div>
 				</div>
 
 				<div class="campos">
-
+					<label for="iassunto">Assunto</label>
+					<input type="text" name="assunto" id="iassunto" required placeholder="Motivo do contato">
 				</div>
 
 				<div class="campos">
-
+					<label for="imensagem">Mensagem</label>
+					<textarea name="mensagem" id="imensagem" cols="30" rows="5" required placeholder="Escreva sua mensagem"></textarea>
 				</div>
+
+				<button type="submit">Enviar</button>
 			</form>
 		</div>
 	</main>
@@ -83,7 +84,7 @@
 
 		<div class="criacao">
 			<p>&copy; 2020 - TODOS OS DIREITOS RESERVADOS</p>
-			<p>TRABALHO DE CONCLUSÃO DE CURSO - ITIEL CARDOSO DARIO </p>
+			<p>ITIEL CARDOSO DARIO </p>
 		</div>
 	</footer>
 </body>
