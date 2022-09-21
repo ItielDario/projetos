@@ -96,7 +96,7 @@ form{
 form > p{
 	color: rgb(58, 58, 58);
 	font-size: 16px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 .campos_horizontais{
@@ -146,6 +146,25 @@ input:-webkit-autofill{ /*ALTERA OS CAMPOS DO INPUT QUE FORAM PREENCHIDOS AUTOMA
 textarea:-webkit-autofil{ /*ALTERA OS CAMPOS DO TEXTAREA QUE FORAM PREENCHIDOS AUTOMATICAMENTE*/
 	-webkit-box-shadow: 0 0 0 30px rgb(216, 216, 216) inset; /*BACKGROUND-COLOR*/
 	-webkit-text-fill-color: rgb(100, 100, 100); 
+}
+
+button{
+	width: 100%;
+	background-color: #ff6b55;
+	color: white;
+	font-weight: bold;
+	border: none;
+	padding: 10px;
+	margin-top: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	border-radius: 7px;
+}
+
+button:hover{
+	background-color: #FF806C;
+	cursor: pointer;
 }
 
 
