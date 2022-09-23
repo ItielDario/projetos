@@ -90,6 +90,7 @@ ul > li > a:hover {
 
 /*BLOCO*/
 .bloco {
+	background-color: white;
 	height: 490px;
 	display: flex;
 	justify-content: space-around;
@@ -477,7 +478,7 @@ footer{
 
 
 
-@media screen and (min-width: 600px) and (max-width: 950px){
+@media screen and (min-width: 600px) and (max-width: 930px){
 	header{
 		flex-direction: column;
 	}
@@ -659,7 +660,7 @@ footer{
 
 
 
-@media screen and (min-width: 950px) and (max-width: 1200px){
+@media screen and (min-width: 930px) and (max-width: 1200px){
 	header{
 		flex-direction: row;
 	}
@@ -708,36 +709,34 @@ footer{
 
 	/*BLOCO*/
 	.bloco {
-		background-color: white;
-		height: auto;
-		flex-direction: column;
-		padding: 10vw 15vw;
-	}
-
-	.imagem_box{
-		width: auto;
-		height: auto;
+		height: 450px;
+		padding: 0 0px;
+		justify-content: center;
 	}
 
 	.imagem_box img{
-		border: 4px solid #E6E6FA;
-		width: 40vw;
-		height: 40vw;
-	}
-
-	.box_txt1{
-		width: 100%;
+		margin-right: 50px;
+		width: 250px;
+		height: 250px;
 	}
 
 	.box_txt1 h3{
-		font-size: 4vw;
-		margin: 3vw 0;
+		color:rgb(78, 78, 78);
+		text-align:right;
+		font-size: 24px;
+		font-family: "Kanit", Sans-serif;
+		line-height: 21px;
+		margin-bottom: 25px;
 	}
 
 	.box_txt1 p{
-		font-size: 2.5vw;
-		line-height: 3.5vw;
+		color:rgb(34, 34, 34);
+		text-align: center;
+		font-size: 16px;
+		line-height: 21px;
 	}
+
+
 
 	/*BLOCO DIFERENTE*/
 
@@ -745,107 +744,35 @@ footer{
 		background-color: #366f8a7a;
 	}
 
+	.bloco_diferente p{
+		margin: 0 50px 0 0;
+	}
+
 
 
 	/*RECONHECIMENTO*/
+
 	.reconhecimento {
-		padding: 7vw 10vw;
+		padding: 100px 30px 120px 30px;
 	}
-	
-	.reconhecimento .title_reconhecimento h2{
-		font-size: 5.5vw;
-		margin-bottom: 2vw;
-	}
-	
-	.reconhecimento .title_reconhecimento p{
-		text-align: center;
-		margin-bottom: 10vw;
-		font-size: 3vw;
-		line-height: 3.5vw;
-	}
-	
-	.todos_feedbacks{
-		flex-direction: column;
-		align-items: center;
-	}
-	
+
 	.feedback{
-		width: 400px;
+		width: 28vw;
 		height: auto;
-		padding: 3.5vw;
-		margin-bottom: 5vw;
-		box-shadow: 0 0 1vw 1vw rgba(0, 0, 0, 0.050);
-		line-height: 3.5vw;
+		padding: 10px;
+		justify-content: flex-start;
 	}
-	
-	.feedback:hover{
-		box-shadow: 0 0 2vw 1vw rgba(0, 0, 0, 0.100);
-	}
-	
+
+
 	.feedback p{
-		font-size: 2.3vw;
+		font-size: 14px;
 	}
-	
+
 	.user img{
-		margin-top: 1vw;
-		width: 7vw;
-		border-radius: 50%;
-		margin-right: 2.5vw;
-		border: 5px solid #f1d78d;
+		margin-top: 10px;
 	}
-	
+
 	.user p{
-		font-size: 3.5vw;
-	}
-	
-	.user2 img{
-		border: 5px solid rgb(167, 190, 255);
-	}
-	
-	.user2 p{
-		color: #6c87ff;
-	}
-	
-	.user3 img{
-		border: 5px solid rgb(147, 233, 154);
-	}
-	
-	.user3 p{
-		color: #57e697;
-	}
-	
-
-
-	/*RODADPE*/
-	footer{
-		padding-bottom: 5vw;
-	}
-
-	.contato{
-		width: 80vw;
-		padding: 0 0;
-		flex-direction: column;
-	}
-
-	.contato h4{
-		margin-top: 3vw;
-		font-size: 2.5vw;
-		margin-bottom: 0;
-	}
-
-	.contato p{
-		font-size: 1.8vw;
-	}
-
-	.redes img{
-		width: 5.5vw;
-	}
-
-	.criacao{
-		margin-top: 5vw;
-	}
-
-	.criacao p{
-		font-size: 1.8vw;
+		font-size: 19px;
 	}
 }
