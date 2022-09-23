@@ -477,7 +477,7 @@ footer{
 
 
 
-@media screen and (min-width: 600px) and (max-width: 900px){
+@media screen and (min-width: 600px) and (max-width: 950px){
 	header{
 		flex-direction: column;
 	}
@@ -659,50 +659,56 @@ footer{
 
 
 
-@media screen and (min-width: 900px) and (max-width: 1200px){
+@media screen and (min-width: 950px) and (max-width: 1200px){
 	header{
-		flex-direction: column;
+		flex-direction: row;
+	}
+
+	main{
+		background-color: #fff0f0;
+	}
+
+	.agrupamento{
+		position: relative;
+		margin: auto;
+		width: 850px;
 	}
 
 
 	.title_principal{
-		display: block;
-		position: initial;
-		padding: 5vw 0 2vw 0;
-		background-color: #fff0f0;
-		font-size: 3vw;
-		line-height: 7vw;
-		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.233);
+		font-size: 20px;
+		left: 60px;
+		top: 70px;
+		line-height: 45px;
 	}
 	
-
+	
 	
 	/*INTRODUÇÃO*/
 	.introducao {
-		padding: 0 0 0 0;
-		flex-direction: column-reverse;
-		align-items: center;
-	}
-
-	.introducao img{
-		width: 80%;
+		background-color: transparent;
+		width: 100%;
+		padding: 100px 0;
+		justify-content: space-around;
 	}
 	
 	.texto_principal{
-		padding: 5vw 15vw 8vw 15vw;
-		align-items: flex-end;
-		justify-content: center;
+		padding: 0px;
 	}
 	
-	.texto_principal p{
-		font-size: 2.5vw;
-		line-height: 3.5vw;
+	.introducao img{
+		width: 50%;
 	}
 
+	.texto_principal p{
+		font-size: 16px;
+		line-height: 25px;
+	}
 
 
 	/*BLOCO*/
 	.bloco {
+		background-color: white;
 		height: auto;
 		flex-direction: column;
 		padding: 10vw 15vw;
@@ -731,6 +737,12 @@ footer{
 	.box_txt1 p{
 		font-size: 2.5vw;
 		line-height: 3.5vw;
+	}
+
+	/*BLOCO DIFERENTE*/
+
+	.bloco_diferente {
+		background-color: #366f8a7a;
 	}
 
 
