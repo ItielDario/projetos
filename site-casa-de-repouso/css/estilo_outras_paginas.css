@@ -181,49 +181,18 @@ footer{
 	font-size: 14px;
 }
 
-
-
 @media screen and (max-width: 1250px){
 	main{
 		background-color: #fff0f0;
 	}
 
-	.agrupamento{
-		position: relative;
-		margin: auto;
-		width: 850px;
+
+	
+	/*TITULO PRINCIPAL*/
+	.title_principal h1{
+		font-size: 40px;
 	}
 
-
-	.title_principal{
-		font-size: 20px;
-		left: 60px;
-		top: 70px;
-		line-height: 45px;
-	}
-	
-	
-	
-	/*INTRODUÇÃO*/
-	.introducao {
-		background-color: transparent;
-		width: 100%;
-		padding: 100px 0;
-		justify-content: space-around;
-	}
-	
-	.texto_principal{
-		padding: 0px;
-	}
-	
-	.introducao img{
-		width: 50%;
-	}
-
-	.texto_principal p{
-		font-size: 16px;
-		line-height: 25px;
-	}
 
 
 	/*BLOCO*/
@@ -260,43 +229,11 @@ footer{
 	/*BLOCO DIFERENTE*/
 
 	.bloco_diferente {
-		background-color: #366f8a7a;
+		background-color: white;
 	}
 
 	.bloco_diferente p{
 		margin: 0 50px 0 0;
-	}
-
-
-
-	/*RECONHECIMENTO*/
-	.reconhecimento {
-		padding: 100px 30px 120px 30px;
-	}
-
-	.todos_feedbacks{
-		flex-direction: row;
-	}
-
-	.feedback{
-		
-		width: 28vw;
-		height: auto;
-		padding: 10px;
-		justify-content: flex-start;
-	}
-
-
-	.feedback p{
-		font-size: 14px;
-	}
-
-	.user img{
-		margin-top: 10px;
-	}
-
-	.user p{
-		font-size: 19px;
 	}
 }
 
@@ -308,44 +245,13 @@ footer{
 		flex-direction: column;
 	}
 
-	.agrupamento{
-		width: 90vw;
+	/*TITULO PRINCIPAL*/
+	.title_principal h1{
+		font-size: 5vw;
+		margin: 8vw 0;
 	}
-
-	.title_principal{
-		display: block;
-		position: initial;
-		padding: 5vw 0 2vw 0;
-		font-size: 3vw;
-		line-height: 7vw;
-		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.233);
-	}
-	
 
 	
-	/*INTRODUÇÃO*/
-	.introducao {
-		padding: 0 0 0 0;
-		flex-direction: column-reverse;
-		align-items: center;
-	}
-
-	.introducao img{
-		width: 80%;
-	}
-	
-	.texto_principal{
-		padding: 5vw 15vw 8vw 15vw;
-		align-items: flex-end;
-		justify-content: center;
-	}
-	
-	.texto_principal p{
-		font-size: 2.5vw;
-		line-height: 3.5vw;
-	}
-
-
 
 	/*BLOCO*/
 	.bloco {
@@ -378,76 +284,6 @@ footer{
 		font-size: 2.5vw;
 		line-height: 3.5vw;
 	}
-
-
-
-	/*RECONHECIMENTO*/
-	.reconhecimento {
-		padding: 7vw 10vw;
-	}
-	
-	.reconhecimento .title_reconhecimento h2{
-		font-size: 5.5vw;
-		margin-bottom: 2vw;
-	}
-	
-	.reconhecimento .title_reconhecimento p{
-		text-align: center;
-		margin-bottom: 10vw;
-		font-size: 3vw;
-		line-height: 3.5vw;
-	}
-	
-	.todos_feedbacks{
-		flex-direction: column;
-		align-items: center;
-	}
-	
-	.feedback{
-		width: 400px;
-		height: auto;
-		padding: 3.5vw;
-		margin-bottom: 5vw;
-		box-shadow: 0 0 1vw 1vw rgba(0, 0, 0, 0.050);
-		line-height: 3.5vw;
-	}
-	
-	.feedback:hover{
-		box-shadow: 0 0 2vw 1vw rgba(0, 0, 0, 0.100);
-	}
-	
-	.feedback p{
-		font-size: 2.3vw;
-	}
-	
-	.user img{
-		margin-top: 1vw;
-		width: 7vw;
-		border-radius: 50%;
-		margin-right: 2.5vw;
-		border: 5px solid #f1d78d;
-	}
-	
-	.user p{
-		font-size: 3.5vw;
-	}
-	
-	.user2 img{
-		border: 5px solid rgb(167, 190, 255);
-	}
-	
-	.user2 p{
-		color: #6c87ff;
-	}
-	
-	.user3 img{
-		border: 5px solid rgb(147, 233, 154);
-	}
-	
-	.user3 p{
-		color: #57e697;
-	}
-	
 
 
 	/*RODADPE*/
@@ -492,42 +328,11 @@ footer{
 		flex-direction: column;
 	}
 
-	.agrupamento{
-		width: 90vw;
-	}
-
-
-	.title_principal{
-		display: block;
-		position: initial;
-		padding: 7vw;
-		font-size: 4.5vw;
-		line-height: 10vw;
-		text-shadow: 0.5vw 0.5vw 0.8vw rgba(0, 0, 0, 0.185);
-	}
-	
-
-	
-	/*INTRODUÇÃO*/
-	.introducao {
-		padding: 0 0 0 0;
-		flex-direction: column-reverse;
-		align-items: center;
-	}
-
-	.introducao img{
-		width: 80vw;
-	}
-	
-	.texto_principal{
-		padding: 12vw;
-		align-items: flex-end;
-		justify-content: center;
-	}
-
-	.texto_principal p{
-		font-size: 4vw;
-		line-height: 5.5vw;
+	/*TITULO PRINCIPAL*/
+	.title_principal h1{
+		font-size: 5vw;
+		margin: 8vw 0;
+		border-bottom: 0.7vw solid #ff806cbe;
 	}
 
 
@@ -536,6 +341,7 @@ footer{
 	.bloco {
 		height: auto;
 		flex-direction: column;
+		align-items: center;
 		padding: 10vw;
 	}
 
@@ -545,6 +351,7 @@ footer{
 	}
 
 	.imagem_box img{
+		margin: 0;
 		border: 1vw solid #E6E6FA;
 		width: 50vw;
 		height: 50vw;
@@ -555,84 +362,16 @@ footer{
 	}
 
 	.box_txt1 h3{
-		font-size: 5vw;
+		font-size: 4.5vw;
 		margin: 3vw 0;
 	}
 
 	.box_txt1 p{
-		font-size: 4vw;
+		margin: 0;
+		font-size: 3.5vw;
 		line-height: 5.5vw;
 	}
 
-
-
-	/*RECONHECIMENTO*/
-	.reconhecimento {
-		padding: 10vw 5vw;
-	}
-	
-	.reconhecimento .title_reconhecimento h2{
-		font-size: 7vw;
-		margin-bottom: 3vw;
-	}
-	
-	.reconhecimento .title_reconhecimento p{
-		text-align: center;
-		font-size: 4vw;
-		margin-bottom: 10vw;
-		line-height: 5.5vw;
-	}
-	
-	.todos_feedbacks{
-		flex-direction: column;
-		align-items: center;
-	}
-	
-	.feedback{
-		width: 60vw;
-		height: auto;
-		padding: 4vw;
-		margin-bottom: 5vw;
-		box-shadow: 0 0 2vw 1vw rgba(0, 0, 0, 0.050);
-		line-height: 4vw;
-	}
-	
-	.feedback:hover{
-		box-shadow: 0 0 2vw 1vw rgba(0, 0, 0, 0.100);
-	}
-	
-	.feedback p{
-		font-size: 3vw;
-	}
-	
-	.user img{
-		margin-top: 2vw;
-		width: 10vw;
-		border-radius: 50%;
-		margin-right: 3vw;
-		border: 1vw solid #f1d78d;
-	}
-	
-	.user p{
-		font-size: 5vw;
-	}
-	
-	.user2 img{
-		border: 1vw solid rgb(167, 190, 255);
-	}
-	
-	.user2 p{
-		color: #6c87ff;
-	}
-	
-	.user3 img{
-		border: 1vw solid rgb(147, 233, 154);
-	}
-	
-	.user3 p{
-		color: #57e697;
-	}
-	
 
 
 	/*RODADPE*/
