@@ -50,11 +50,22 @@ ul > li > a:hover {
 	border-bottom: 3px solid #455A64;
 }
 
+
+main{
+	background-color: #fff0f0;
+}
+
+.agrupamento{
+	position: relative;
+	margin: auto;
+	width: 1100px;
+}
+
 .title_principal{
 	display: inline-block;
 	position: absolute;
-	left: 100px;
-	top: 270px;
+	left: 110px;
+	top: 120px;
 	color: #FF806C;
 	font-size: 25px;
 	font-family: 'Roboto', sans-serif;
@@ -67,14 +78,13 @@ ul > li > a:hover {
 
 /*INTRODUÇÃO*/
 .introducao {
-	padding: 100px 50px 70px 50px;
-	background-color: #fff0f0;
+	padding: 50px 0;
 	display: flex;
 	justify-content: space-around;
 }
 
 .texto_principal{
-	padding: 50px;
+	padding: 5px;
 	text-align: center;
 
 	display: flex;
@@ -83,7 +93,7 @@ ul > li > a:hover {
 }
 
 .introducao img{
-	width: 62%;
+	width: 50%;
 }
 
 
@@ -296,199 +306,140 @@ footer{
 
 
 
-@media screen and (max-width: 600px){
-	header{
-		flex-direction: column;
+
+@media screen and (max-width: 1250px){
+	main{
+		background-color: #fff0f0;
+	}
+
+	.agrupamento{
+		position: relative;
+		margin: auto;
+		width: 850px;
 	}
 
 
 	.title_principal{
-		display: block;
-		position: initial;
-		padding: 7vw;
-		background-color: #fff0f0;
-		font-size: 4.5vw;
-		line-height: 10vw;
-		text-shadow: 0.5vw 0.5vw 0.8vw rgba(0, 0, 0, 0.185);
+		font-size: 20px;
+		left: 60px;
+		top: 70px;
+		line-height: 45px;
 	}
 	
-
+	
 	
 	/*INTRODUÇÃO*/
 	.introducao {
-		padding: 0 0 0 0;
-		flex-direction: column-reverse;
-		align-items: center;
-	}
-
-	.introducao img{
-		width: 90%;
+		background-color: transparent;
+		width: 100%;
+		padding: 100px 0;
+		justify-content: space-around;
 	}
 	
 	.texto_principal{
-		padding: 12vw;
-		align-items: flex-end;
-		justify-content: center;
+		padding: 0px;
+	}
+	
+	.introducao img{
+		width: 50%;
 	}
 
 	.texto_principal p{
-		font-size: 4vw;
-		line-height: 5.5vw;
+		font-size: 16px;
+		line-height: 25px;
 	}
-
 
 
 	/*BLOCO*/
 	.bloco {
-		height: auto;
-		flex-direction: column;
-		padding: 10vw;
-	}
-
-	.imagem_box{
-		width: auto;
-		height: auto;
+		height: 450px;
+		padding: 0 0px;
+		justify-content: center;
 	}
 
 	.imagem_box img{
-		border: 1vw solid #E6E6FA;
-		width: 50vw;
-		height: 50vw;
-	}
-
-	.box_txt1{
-		width: 100%;
+		margin-right: 50px;
+		width: 250px;
+		height: 250px;
 	}
 
 	.box_txt1 h3{
-		font-size: 5vw;
-		margin: 3vw 0;
+		color:rgb(78, 78, 78);
+		text-align:right;
+		font-size: 24px;
+		font-family: "Kanit", Sans-serif;
+		line-height: 21px;
+		margin-bottom: 25px;
 	}
 
 	.box_txt1 p{
-		font-size: 4vw;
-		line-height: 5.5vw;
+		color:rgb(34, 34, 34);
+		text-align: center;
+		font-size: 16px;
+		line-height: 21px;
+	}
+
+
+
+	/*BLOCO DIFERENTE*/
+
+	.bloco_diferente {
+		background-color: #366f8a7a;
+	}
+
+	.bloco_diferente p{
+		margin: 0 50px 0 0;
 	}
 
 
 
 	/*RECONHECIMENTO*/
 	.reconhecimento {
-		padding: 10vw 5vw;
+		padding: 100px 30px 120px 30px;
 	}
-	
-	.reconhecimento .title_reconhecimento h2{
-		font-size: 7vw;
-		margin-bottom: 3vw;
-	}
-	
-	.reconhecimento .title_reconhecimento p{
-		text-align: center;
-		font-size: 4vw;
-		margin-bottom: 10vw;
-		line-height: 5.5vw;
-	}
-	
+
 	.todos_feedbacks{
-		flex-direction: column;
-		align-items: center;
+		flex-direction: row;
 	}
-	
+
 	.feedback{
-		width: 60vw;
+		
+		width: 28vw;
 		height: auto;
-		padding: 4vw;
-		margin-bottom: 5vw;
-		box-shadow: 0 0 2vw 1vw rgba(0, 0, 0, 0.050);
-		line-height: 4vw;
+		padding: 10px;
+		justify-content: flex-start;
 	}
-	
-	.feedback:hover{
-		box-shadow: 0 0 2vw 1vw rgba(0, 0, 0, 0.100);
-	}
-	
+
+
 	.feedback p{
-		font-size: 3vw;
+		font-size: 14px;
 	}
-	
+
 	.user img{
-		margin-top: 2vw;
-		width: 10vw;
-		border-radius: 50%;
-		margin-right: 3vw;
-		border: 1vw solid #f1d78d;
+		margin-top: 10px;
 	}
-	
+
 	.user p{
-		font-size: 5vw;
-	}
-	
-	.user2 img{
-		border: 1vw solid rgb(167, 190, 255);
-	}
-	
-	.user2 p{
-		color: #6c87ff;
-	}
-	
-	.user3 img{
-		border: 1vw solid rgb(147, 233, 154);
-	}
-	
-	.user3 p{
-		color: #57e697;
-	}
-	
-
-
-	/*RODADPE*/
-	footer{
-		padding-bottom: 8vw;
-	}
-
-	.contato{
-		width: 80vw;
-		padding: 0 0;
-		flex-direction: column;
-	}
-
-	.contato h4{
-		margin-top: 7vw;
-		font-size: 4vw;
-		margin-bottom: 0;
-	}
-
-	.contato p{
-		font-size: 3vw;
-	}
-
-	.redes img{
-		width: 8vw;
-	}
-
-	.criacao{
-		margin-top: 8vw;
-	}
-
-	.criacao p{
-		font-size: 3vw;
+		font-size: 19px;
 	}
 }
 
 
 
 
-@media screen and (min-width: 600px) and (max-width: 930px){
+@media screen and (max-width: 930px){
 	header{
 		flex-direction: column;
 	}
 
+	.agrupamento{
+		width: 90vw;
+	}
 
 	.title_principal{
 		display: block;
 		position: initial;
 		padding: 5vw 0 2vw 0;
-		background-color: #fff0f0;
 		font-size: 3vw;
 		line-height: 7vw;
 		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.233);
@@ -660,119 +611,184 @@ footer{
 
 
 
-@media screen and (min-width: 930px) and (max-width: 1200px){
+@media screen and (max-width: 600px){
 	header{
-		flex-direction: row;
-	}
-
-	main{
-		background-color: #fff0f0;
+		flex-direction: column;
 	}
 
 	.agrupamento{
-		position: relative;
-		margin: auto;
-		width: 850px;
+		width: 90vw;
 	}
 
 
 	.title_principal{
-		font-size: 20px;
-		left: 60px;
-		top: 70px;
-		line-height: 45px;
+		display: block;
+		position: initial;
+		padding: 7vw;
+		font-size: 4.5vw;
+		line-height: 10vw;
+		text-shadow: 0.5vw 0.5vw 0.8vw rgba(0, 0, 0, 0.185);
 	}
 	
-	
+
 	
 	/*INTRODUÇÃO*/
 	.introducao {
-		background-color: transparent;
-		width: 100%;
-		padding: 100px 0;
-		justify-content: space-around;
+		padding: 0 0 0 0;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.introducao img{
+		width: 80vw;
 	}
 	
 	.texto_principal{
-		padding: 0px;
-	}
-	
-	.introducao img{
-		width: 50%;
+		padding: 12vw;
+		align-items: flex-end;
+		justify-content: center;
 	}
 
 	.texto_principal p{
-		font-size: 16px;
-		line-height: 25px;
+		font-size: 4vw;
+		line-height: 5.5vw;
 	}
+
 
 
 	/*BLOCO*/
 	.bloco {
-		height: 450px;
-		padding: 0 0px;
-		justify-content: center;
+		height: auto;
+		flex-direction: column;
+		padding: 10vw;
+	}
+
+	.imagem_box{
+		width: auto;
+		height: auto;
 	}
 
 	.imagem_box img{
-		margin-right: 50px;
-		width: 250px;
-		height: 250px;
+		border: 1vw solid #E6E6FA;
+		width: 50vw;
+		height: 50vw;
+	}
+
+	.box_txt1{
+		width: 100%;
 	}
 
 	.box_txt1 h3{
-		color:rgb(78, 78, 78);
-		text-align:right;
-		font-size: 24px;
-		font-family: "Kanit", Sans-serif;
-		line-height: 21px;
-		margin-bottom: 25px;
+		font-size: 5vw;
+		margin: 3vw 0;
 	}
 
 	.box_txt1 p{
-		color:rgb(34, 34, 34);
-		text-align: center;
-		font-size: 16px;
-		line-height: 21px;
-	}
-
-
-
-	/*BLOCO DIFERENTE*/
-
-	.bloco_diferente {
-		background-color: #366f8a7a;
-	}
-
-	.bloco_diferente p{
-		margin: 0 50px 0 0;
+		font-size: 4vw;
+		line-height: 5.5vw;
 	}
 
 
 
 	/*RECONHECIMENTO*/
-
 	.reconhecimento {
-		padding: 100px 30px 120px 30px;
+		padding: 10vw 5vw;
 	}
-
+	
+	.reconhecimento .title_reconhecimento h2{
+		font-size: 7vw;
+		margin-bottom: 3vw;
+	}
+	
+	.reconhecimento .title_reconhecimento p{
+		text-align: center;
+		font-size: 4vw;
+		margin-bottom: 10vw;
+		line-height: 5.5vw;
+	}
+	
+	.todos_feedbacks{
+		flex-direction: column;
+		align-items: center;
+	}
+	
 	.feedback{
-		width: 28vw;
+		width: 60vw;
 		height: auto;
-		padding: 10px;
-		justify-content: flex-start;
+		padding: 4vw;
+		margin-bottom: 5vw;
+		box-shadow: 0 0 2vw 1vw rgba(0, 0, 0, 0.050);
+		line-height: 4vw;
 	}
-
-
+	
+	.feedback:hover{
+		box-shadow: 0 0 2vw 1vw rgba(0, 0, 0, 0.100);
+	}
+	
 	.feedback p{
-		font-size: 14px;
+		font-size: 3vw;
 	}
-
+	
 	.user img{
-		margin-top: 10px;
+		margin-top: 2vw;
+		width: 10vw;
+		border-radius: 50%;
+		margin-right: 3vw;
+		border: 1vw solid #f1d78d;
+	}
+	
+	.user p{
+		font-size: 5vw;
+	}
+	
+	.user2 img{
+		border: 1vw solid rgb(167, 190, 255);
+	}
+	
+	.user2 p{
+		color: #6c87ff;
+	}
+	
+	.user3 img{
+		border: 1vw solid rgb(147, 233, 154);
+	}
+	
+	.user3 p{
+		color: #57e697;
+	}
+	
+
+
+	/*RODADPE*/
+	footer{
+		padding-bottom: 8vw;
 	}
 
-	.user p{
-		font-size: 19px;
+	.contato{
+		width: 80vw;
+		padding: 0 0;
+		flex-direction: column;
+	}
+
+	.contato h4{
+		margin-top: 7vw;
+		font-size: 4vw;
+		margin-bottom: 0;
+	}
+
+	.contato p{
+		font-size: 3vw;
+	}
+
+	.redes img{
+		width: 8vw;
+	}
+
+	.criacao{
+		margin-top: 8vw;
+	}
+
+	.criacao p{
+		font-size: 3vw;
 	}
 }
