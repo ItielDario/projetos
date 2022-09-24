@@ -484,6 +484,7 @@ footer{
 	}
 
 	.imagem_box img{
+		margin: 0;
 		border: 4px solid #E6E6FA;
 		width: 40vw;
 		height: 40vw;
@@ -494,11 +495,13 @@ footer{
 	}
 
 	.box_txt1 h3{
+		margin: 0;
 		font-size: 4vw;
 		margin: 3vw 0;
 	}
 
 	.box_txt1 p{
+		margin: 0;
 		font-size: 2.5vw;
 		line-height: 3.5vw;
 	}
