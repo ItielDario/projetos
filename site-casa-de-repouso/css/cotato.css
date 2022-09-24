@@ -73,11 +73,12 @@ ul > li > a:hover {
 
 /*CONTEÚDO*/
 .conteudo{
+	width: 1200px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 0 50px;
-	margin-bottom: 100px;
+	padding: 0 0px;
+	margin: auto;
 }
 
 .image_conteudo{
@@ -91,7 +92,8 @@ ul > li > a:hover {
 
 form{
 	width: 50%;
-}
+} 
+
 
 form > p{
 	color: rgb(58, 58, 58);
@@ -160,6 +162,7 @@ button{
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
 	border-radius: 7px;
+	margin-bottom: 150px;
 }
 
 button:hover{
@@ -224,4 +227,196 @@ footer{
 .criacao p{
 	color: white;
 	font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 1250px){
+	/*TITULO PRINCIPAL*/
+	.title_principal h1{
+		margin: 70px 0 50px 0;
+		font-size: 4vw;
+	}
+
+	
+
+	/*CONTEÚDO*/
+	.conteudo{
+		width: auto;
+		padding: 0 5vw;
+		margin-bottom: 0px;
+	}
+
+	.image_conteudo{
+		margin-right: 5vw;
+		width: 60%;
+	}
+
+	form > p{
+		font-size: 14px;
+	}
+
+	.campos_horizontais{
+		flex-direction: column;
+	}
+
+	.campos_horizontais .nome{
+		width: 100%;
+		margin-right: 0px;
+	}
+
+	.campos_horizontais .email{
+		width: 100%;
+	}
+
+	.campos{
+		font-size: 15px;
+	}
+
+	.campos input, textarea{
+		padding: 0.7vw;
+	}
+
+	button{
+		padding: 0.7vw;
+		font-size: 2vw;
+		margin-bottom: 100px;
+	}
+}
+
+
+
+
+@media screen and (max-width: 930px){
+	/*CONTEÚDO*/
+	.conteudo{
+		flex-direction: column;
+		padding: 0 0px;
+	}
+
+	.image_conteudo{
+		margin-right: 100px;
+		width: 100%;
+		margin: 0 0 3vw 0;
+		text-align: center;
+	}
+
+	.conteudo img{
+		width: 50vw;		
+	}
+
+	form{
+		width: 80%;
+	} 
+
+	form > p{
+		font-size: 2vw;
+		margin-bottom: 3vw;
+	}
+
+	.campos{
+		margin-bottom: 1.5vw;
+	}
+
+	.campos label{
+		font-size: 2vw;
+	}
+
+	input::placeholder, textarea::placeholder{
+		font-size: 1.5vw;
+	}
+
+	.campos input, textarea{
+		padding: 0.5vw;
+	}
+
+	textarea{
+		height: 10vw;
+	}
+
+	button{
+		padding: 0.7vw;
+		font-size: 2.3vw;
+		margin: 2vw 0 10vw 0;
+	}
+
+	/*RODADPE*/
+	footer{
+		padding-bottom: 5vw;
+	}
+
+	.contato{
+		width: 80vw;
+		padding: 0 0;
+		flex-direction: column;
+	}
+
+	.contato h4{
+		margin-top: 3vw;
+		font-size: 2.5vw;
+		margin-bottom: 0;
+	}
+
+	.contato p{
+		font-size: 1.8vw;
+	}
+
+	.redes img{
+		width: 5.5vw;
+	}
+
+	.criacao{
+		margin-top: 5vw;
+	}
+
+	.criacao p{
+		font-size: 1.8vw;
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 600px){
+	/*TITULO PRINCIPAL*/
+	.title_principal h1{
+		font-size: 5vw;
+		margin: 8vw 0;
+		border-bottom: 0.7vw solid #ff806cbe;
+	}
+
+	form > p{
+		font-size: 2.5vw;
+		line-height: 4vw;
+	}
+
+	.campos{
+		margin-bottom: 2vw;
+	}
+
+	.campos label{
+		font-size: 3vw;
+	}
+
+	input::placeholder, textarea::placeholder{
+		font-size: 2.5vw;
+	}
+
+	.campos input, textarea{
+		padding: 1vw;
+		height: 5vw;
+		border-radius: 5px;
+	}
+
+	textarea{
+		height: 12vw;
+	}
+
+	button{
+		padding: 1vw;
+		font-size: 2.5vw;
+		border-radius: 5px;
+		letter-spacing: 0.7vw;
+	}
 }
