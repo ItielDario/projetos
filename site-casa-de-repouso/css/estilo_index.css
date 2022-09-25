@@ -323,6 +323,10 @@ footer{
 
 
 @media screen and (max-width: 1250px){
+	#itens{
+		display: block;
+	}
+
 	main{
 		background-color: #fff0f0;
 	}
@@ -444,7 +448,6 @@ footer{
 
 @media screen and (max-width: 930px){
 	
-
 
 
 	/*TITLE*/
