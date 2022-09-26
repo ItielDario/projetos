@@ -447,12 +447,64 @@ footer{
 
 
 @media screen and (max-width: 930px){
+	/*HEADER*/
+	header{
+		box-sizing: border-box;
+		padding: 3vw 10vw 0 10vw;
+		flex-direction: column;
+		width: 100%;
+	}
+	.menu{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
 	
+	.logo{
+		width: 23vw;
+		height: 8vw;
+		margin-bottom: 3vw;
+	}
+
+	#itens{
+		margin-top: 5vw;
+		display: none;
+	}
+
+	i#burguer{
+		display: block;
+		font-size: 8vw;
+	}
+	
+	ul{
+		margin: 0;
+	}
+	
+	ul > li{
+		text-align: center;
+		margin: 0;
+		display: block;
+		font-size: 3.5vw;
+		border-top: 0.8vw solid #fff0f0a1;
+
+	}
+	
+	ul > li > a{
+		display: block;
+		padding: 1vw 0;
+		width: 80vw;
+	}
+	
+	ul > li > a:hover {
+		background-color: #fff0f0a1;
+		color: white;
+		border: none;
+	}
 
 
 	/*TITLE*/
 	.agrupamento{
-		width: 90vw;
+		width: 100%;
 	}
 
 	.title_principal{
@@ -636,10 +688,11 @@ footer{
 @media screen and (max-width: 600px){
 	header{
 		flex-direction: column;
+		width: 100%;
 	}
 
 	.agrupamento{
-		width: 90vw;
+		width: 100%;
 	}
 
 
