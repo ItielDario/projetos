@@ -66,6 +66,10 @@ ul > li > a:hover {
 }
 
 
+
+
+
+
 main{
 	background-color: #fff0f0;
 }
@@ -499,6 +503,10 @@ footer{
 		background-color: #fff0f0a1;
 		color: white;
 		border: none;
+	}
+
+	.selecionado{
+		background-color: #fff0f048;
 	}
 
 
