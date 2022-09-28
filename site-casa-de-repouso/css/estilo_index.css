@@ -336,9 +336,6 @@ footer{
 
 
 @media screen and (max-width: 1250px){
-	header{
-		background-color: #455A64;
-	}
 	#itens{
 		display: block;
 	}
@@ -465,7 +462,6 @@ footer{
 @media screen and (max-width: 930px){
 	/*HEADER*/
 	header{
-		background-color: aquamarine;
 		box-sizing: border-box;
 		padding: 3vw 10vw 0 10vw;
 		flex-direction: column;
@@ -713,7 +709,6 @@ footer{
 
 @media screen and (max-width: 600px){
 	header{
-		background-color: red;
 		flex-direction: column;
 		width: 100%;
 	}
