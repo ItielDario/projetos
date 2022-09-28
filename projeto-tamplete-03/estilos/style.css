@@ -23,7 +23,7 @@ body{
 .logo{
     margin-left: 10%;
     flex: 20%;
-    text-align: center;
+    text-align: left;
 }
 
 .logo h1{
@@ -62,4 +62,106 @@ body{
 #botao:hover{
     border: none;
     background-color: #ff2978;
+}
+
+header{
+    display: flex;
+    flex-grow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: auto;
+}
+
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4a;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+.contact_btn{
+    display: inline-block;
+    background-color: #ff2978;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact_btn:hover{
+    background-color: #180f4a;
+}
+
+.img_headline{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    margin: 0 5%;
+    height: auto;
+    text-align: center;
+    padding: 5%;
+}
+
+section > h2{
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;    
+    margin: 0;
+    font-weight: bold;
+    color: #180f4a;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.texto_oculto{
+    display: none;
+}
+
+.card:hover{
+    background-color: #ff2978;
+    color: white;
+    padding: 40px;
+}
+
+.card:hover img{ /*O QUE VAI ACONTECER COM O IMG QUANDO PASSAR O MOUSE SOBRE O CARD*/
+    display: none;
+}
+
+.card:hover .card_text{ /*O QUE VAI ACONTECER COM O .CARD_TEXT QUANDO PASSAR O MOUSE SOBRE O CARD*/
+    display: none;
+}
+
+.card:hover .texto_oculto{ /*O QUE VAI ACONTECER COM O .TEXT_OCULTO QUANDO PASSAR O MOUSE SOBRE O CARD*/
+    display: block;
 }
