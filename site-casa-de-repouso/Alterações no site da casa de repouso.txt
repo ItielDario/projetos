@@ -1,0 +1,30 @@
+- Trocar as divs por HTML Semântico 
+
+- Trocar o nome das classes e ID
+
+- Link do login
+
+- Atualizar as TAGS Obsoletas
+
+- Coloca sans-serif na familia das fontes
+
+- Colocar a mesma classe em tags iguais
+
+- adicionando flexbox
+
+- Limpando o codigo (retirando comandos inuteis)
+
+- Acrescentando a parte do reconhecimento
+
+- Mudar o rodapé
+
+- Colocar os paginas dentro de uma página, e mudar os links
+
+- Responsividade
+
+- Menu hamburguer
+
+- Trocar a logo
+
+- Trocar os textos
+
