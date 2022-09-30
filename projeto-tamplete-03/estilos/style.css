@@ -94,6 +94,10 @@ header{
     text-align: left;
 }
 
+.img_headline img{
+    width: 100%;
+}
+
 .contact_btn{
     display: inline-block;
     background-color: #ff2978;
