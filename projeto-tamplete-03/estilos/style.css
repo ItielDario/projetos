@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
 
 body{
@@ -164,4 +164,23 @@ section > h2{
 
 .card:hover .texto_oculto{ /*O QUE VAI ACONTECER COM O .TEXT_OCULTO QUANDO PASSAR O MOUSE SOBRE O CARD*/
     display: block;
+}
+
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #180f4a, #090422, black);
+    text-align: center;
+    border-top: 5px solid #ff2978;
+    color: white;
+}
+
+.logo_footer{
+    padding: 100px;   
+}
+.agencia{
+    font-family: 'Lobster', cursive;
+    color: #180f4a;
+    font-size: 34px;
+    color: white;
 }
