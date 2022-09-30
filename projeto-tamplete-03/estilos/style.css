@@ -18,6 +18,8 @@ body{
     align-items: center;
     height: 100px;
     background-color: white;
+    position: fixed;
+    width: 100vw;
 }
 
 .logo{
@@ -71,6 +73,7 @@ header{
     align-items: center;
     background-color: white;
     height: auto;
+    padding-top: 100px;
 }
 
 .headline{
@@ -183,4 +186,14 @@ footer{
     color: #180f4a;
     font-size: 34px;
     color: white;
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.whats > img{
+    width: 90px;
 }
