@@ -259,6 +259,17 @@ footer{
 	font-size: 14px;
 }
 
+.whats{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+.whats img{
+	width: 90px;
+}
+
+
 
 
 @media screen and (max-width: 1250px){
@@ -315,6 +326,10 @@ footer{
 		padding: 0.7vw;
 		font-size: 2vw;
 		margin-bottom: 100px;
+	}
+
+	.whats img{
+		width: 7vw;
 	}
 }
 
@@ -475,6 +490,9 @@ footer{
 		font-size: 1.8vw;
 	}
 
+	.whats img{
+		width: 10vw;
+	}
 }
 
 
@@ -526,5 +544,14 @@ footer{
 		font-size: 2.5vw;
 		border-radius: 5px;
 		letter-spacing: 0.7vw;
+	}
+
+	.whats{
+		bottom: 1.5vw;
+		right: 1.5vw;
+	}
+
+	.whats img{
+		width: 14vw;
 	}
 }
