@@ -11,6 +11,10 @@
 }
 
 header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1; /*COLOCANDO A DIV NA FRENTE*/
 	background-color: #FF806C;
 	padding: 20px 0;
 
@@ -73,6 +77,10 @@ ul > li > a{
 ul > li > a:hover {
 	color: #455A64;
 	border-bottom: 3px solid #455A64;
+}
+
+main{
+	padding-top: 5vw;
 }
 
 /*TITLE*/
@@ -254,6 +262,10 @@ footer{
 
 
 @media screen and (max-width: 1250px){
+	main{
+		padding-top: 8vw;
+	}
+
 	/*TITULO PRINCIPAL*/
 	.title_principal h1{
 		margin: 70px 0 50px 0;
@@ -310,6 +322,10 @@ footer{
 
 
 @media screen and (max-width: 930px){
+	main{
+		padding-top: 12vw;
+	}
+
 	/*HEADER*/
 	header{
 		box-sizing: border-box;
@@ -465,6 +481,7 @@ footer{
 
 
 @media screen and (max-width: 600px){
+
 	header{
 		flex-direction: column;
 		width: 100%;

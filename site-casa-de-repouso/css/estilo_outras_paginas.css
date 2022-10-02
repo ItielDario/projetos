@@ -10,6 +10,10 @@
 }
 
 header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1; /*COLOCANDO A DIV NA FRENTE*/
 	background-color: #FF806C;
 	padding: 20px 0;
 
@@ -74,7 +78,9 @@ ul > li > a:hover {
 	border-bottom: 3px solid #455A64;
 }
 
-
+main{
+	padding-top: 5vw;
+}
 
 
 /*TITLE*/
@@ -208,7 +214,7 @@ footer{
 
 @media screen and (max-width: 1250px){
 	main{
-		background-color: #fff0f0;
+		padding-top: 10vw;
 	}
 
 
@@ -273,6 +279,11 @@ footer{
 		flex-direction: column;
 		width: 100%;
 	}
+
+	main{
+		padding-top: 15vw;
+	}
+
 	.menu{
 		width: 100%;
 		display: flex;
