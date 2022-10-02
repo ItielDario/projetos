@@ -10,6 +10,10 @@
 }
 
 header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1; /*COLOCANDO A DIV NA FRENTE*/
 	background-color: #FF806C;
 	padding: 20px 0;
 
@@ -81,6 +85,7 @@ ul > li > a:hover {
 
 main{
 	background-color: #fff0f0;
+	padding-top: 5vw;
 }
 
 .agrupamento{
@@ -342,6 +347,7 @@ footer{
 
 	main{
 		background-color: #fff0f0;
+		padding-top: 10vw;
 	}
 
 	.agrupamento{
@@ -467,6 +473,11 @@ footer{
 		flex-direction: column;
 		width: 100%;
 	}
+
+	main{
+		padding-top: 15vw;
+	}
+
 	.menu{
 		width: 100%;
 		display: flex;
