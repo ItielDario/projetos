@@ -337,6 +337,16 @@ footer{
 	font-size: 14px;
 }
 
+.whats{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+.whats img{
+	width: 90px;
+}
+
 
 
 
@@ -459,6 +469,10 @@ footer{
 
 	.user p{
 		font-size: 19px;
+	}
+
+	.whats img{
+		width: 7vw;
 	}
 }
 
@@ -713,6 +727,10 @@ footer{
 	.criacao p{
 		font-size: 1.8vw;
 	}
+
+	.whats img{
+		width: 10vw;
+	}
 }
 
 
@@ -898,5 +916,14 @@ footer{
 
 	.criacao p{
 		font-size: 3vw;
+	}
+
+	.whats{
+		bottom: 1.5vw;
+		right: 1.5vw;
+	}
+
+	.whats img{
+		width: 14vw;
 	}
 }
