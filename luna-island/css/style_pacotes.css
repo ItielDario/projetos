@@ -8,11 +8,12 @@
 }
 
 header{
-    background-image: url("../imagens/imagem_principal.jpg");
-    height: 50vw;
+    background-image: url("../imagens/foto.png");
+    height: 8vw;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(90%);  /*DEIXA A IMAGEM  MAIS ESCURA*/
+    background-position: center;
+    filter: brightness(90%); 
 }
 
 .bar{
@@ -56,127 +57,30 @@ main{
     margin: auto;
 }
 
-.oferecemos{
-    padding: 3vw 7vw;
+.menu_principal{
+    padding: 5vw 7vw;
 }
 
-.oferecemos > p{
-    font-size: 1.2vw;
-}
-
-.title_oferecemos{
+.pesquisa{
+    margin-top: 1.5vw;
+    padding: 2vw;
+    border: 1px solid black;
     display: flex;
-    justify-content: center;
-    margin: 2.5vw 0;
+    justify-content: space-around;
 }
 
-.title_oferecemos > h1{
-    font-size: 3vw;
-    text-transform: uppercase;
-}
-
-.carrossel{
-    padding: 0vw 7vw 3vw 7vw;
-}
-
-.container_carrossel{
-    padding: 2vw 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.box_carrossel{
-    width: 25vw;
-    height: auto;
-    position: relative;
-}
-
-.box_carrossel img{
-    width: 100%;
-}
-
-.back_carrossel{
-    display: none;
-}
-
-.box_carrossel:hover .back_carrossel{   /*QUANDO PASSAR O MOUSE EM CIMA DO BOX_CARROSSEL O BACK_CARROSSEL VAI APARECER*/
-    display: block;
-}
-
-.box_carrossel:hover .back_carrossel{   /*QUANDO PASSAR O MOUSE EM CIMA DO BOX_CARROSSEL O BACK_CARROSSEL VAI APARECER*/
-    position: absolute;
-    bottom: 15%;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1vw;
-    margin: 0 1vw;
-} 
-
-.box_carrossel:hover .front_carrossel{ /*QUANDO PASSAR O MOUSE EM CIMA DO BOX_CARROSSEL A IMAGEM VAI FICAR ESCURA*/
-    filter: brightness(18%); /*DEIXA A IMAGEM ESCURA*/
-}
-
-.box_carrossel:hover{   
-   cursor: pointer;   /*QUANDO PASSAR O MOUSE POR CIMA O CURSOR DO MOUSE VAI FICAR NO FORMATO DA MÃOZINHA*/
-}
-
-.icone > img{
-    width: 4vw;
-    margin-bottom: 1vw;
-}
-
-.recomendacoes{
+.data_entrada, .data_saida, .botao{
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
     display: flex;
     flex-direction: column;
-    padding: 0 7vw 3vw 7vw;
+    align-items: center;
 }
 
-.title_recomendacoes{
-    margin: 3vw 0 3vw 0;
-    display: flex;
-    justify-content: center;
-}
-
-.title_recomendacoes > h2{
-    text-transform: uppercase;
-    font-size: 3vw;
-}
-
-.group_box{
-    display: flex;
-    justify-content: space-between;
-}
-
-.box{
-    background-color: rgb(255, 255, 255);
-    padding: 15px;
-    border-radius: 10px;
-    width: 22vw;
-    box-shadow: 0.3vw 0.3vw 0.3vw rgba(0, 0, 0, 0.050), -0.3vw -0.3vw 0.3vw rgba(0, 0, 0, 0.050);
-    border: 1px solid rgba(0, 0, 0, 0.137);
-}
-
-.box:hover{
-    box-shadow: 0.4vw 0.4vw 0.5vw rgba(0, 0, 0, 0.1), -0.4vw -0.4vw 0.5vw rgba(0, 0, 0, 0.1);
-}
-
-.pessoa{
-    margin-bottom: 10px;
-}
-
-.pessoa > p{
-    margin-bottom: 1vw;
-    font-weight: bold;
-    font-size: 1.5vw;
-}
-
-.conteudo_box > p{
-    font-size: 1.2vw;
-}
-
-.mapa{
-    margin-top: 80px;
+.pesquisa input{
+    width: 200px;
+    font-size: 18px;
 }
 
 footer{
