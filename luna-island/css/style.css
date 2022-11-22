@@ -68,7 +68,7 @@ main{
 .title_oferecemos{
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: 2.5vw 0;
 }
 
 .title_oferecemos > h1{
@@ -87,8 +87,9 @@ main{
 }
 
 .box_carrossel{
-    width: 350px;
-    height: 250px;
+    width: 25vw;
+    height: auto;
+    position: relative;
 }
 
 .box_carrossel img{
@@ -99,27 +100,37 @@ main{
     display: none;
 }
 
-.image_back img{
-    width: 200px;
-}
-
 .box_carrossel:hover .back_carrossel{   /*QUANDO PASSAR O MOUSE EM CIMA DO BOX_CARROSSEL O BACK_CARROSSEL VAI APARECER*/
     display: block;
 }
 
-.box_carrossel:hover .front_carrossel{ /*QUANDO PASSAR O MOUSE EM CIMA DO BOX_CARROSSEL O FRONT_CARROSSEL VAI DESAPARECER*/
-    display: none;
+.box_carrossel:hover .back_carrossel{   /*QUANDO PASSAR O MOUSE EM CIMA DO BOX_CARROSSEL O BACK_CARROSSEL VAI APARECER*/
+    position: absolute;
+    bottom: 15%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1vw;
+    margin: 0 1vw;
+} 
+
+.box_carrossel:hover .front_carrossel{ /*QUANDO PASSAR O MOUSE EM CIMA DO BOX_CARROSSEL A IMAGEM VAI FICAR ESCURA*/
+    filter: brightness(18%); /*DEIXA A IMAGEM ESCURA*/
 }
 
-.box_carrossel:hover{   /*QUANDO PASSAR O MOUSE EM CIMA DO BOX_CARROSSEL O BACK_CARROSSEL VAI APARECER*/
-    border: 1px solid black;
-    padding: 20px;
+.box_carrossel:hover{   
+   cursor: pointer;   /*QUANDO PASSAR O MOUSE POR CIMA O CURSOR DO MOUSE VAI FICAR NO FORMATO DA MÃOZINHA*/
+}
+
+.icone > img{
+    width: 4vw;
+    margin-bottom: 1vw;
 }
 
 .recomendacoes{
     display: flex;
     flex-direction: column;
-    padding: 3vw 7vw;
+    padding: 0 7vw 3vw 7vw;
 }
 
 .title_recomendacoes{
