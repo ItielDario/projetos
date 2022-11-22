@@ -54,61 +54,66 @@ nav > a:hover{
 }
 
 main{
-
     margin: auto;
 }
 
-.sobre_nos{
-    margin-bottom: 50px;
-    padding: 3vw 7vw;
+.oferecemos{
+    padding: 3vw 7vw 3vw 7vw;
 }
 
-.sobre_nos > p{
+.oferecemos > p{
     font-size: 1.2vw;
 }
 
-.title_sobre_nos{
+.title_oferecemos{
     display: flex;
     justify-content: center;
     margin: 20px 0;
 }
 
-.title_sobre_nos > h1{
+.title_oferecemos > h1{
     font-size: 3vw;
     text-transform: uppercase;
 }
 
-.valores{
-    padding: 3vw 7vw;
-    background-color: rgba(192, 192, 192, 0.562);
+.carrossel{
+    padding: 0vw 7vw 3vw 7vw;
 }
 
-.conteudo_valores{
+.container_carrossel{
+    padding: 2vw 0;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
-.texto_valores{
-    width: 50%;
+.box_carrossel{
+    width: 350px;
+    height: 250px;
 }
 
-.title_valores > h1{
-    font-size: 3vw;
-    text-transform: uppercase;
+.box_carrossel img{
+    width: 100%;
 }
 
-.texto_valores > p{
-    font-size: 1.2vw;
+.back_carrossel{
+    display: none;
 }
 
-.imagem_valores{
-    width: 50%;
-    margin-left: 70px;
-
+.image_back img{
+    width: 200px;
 }
 
-.imagem_valores > img{
-    width: 35vw;   
+.box_carrossel:hover .back_carrossel{   /*QUANDO PASSAR O MOUSE EM CIMA DO BOX_CARROSSEL O BACK_CARROSSEL VAI APARECER*/
+    display: block;
+}
+
+.box_carrossel:hover .front_carrossel{ /*QUANDO PASSAR O MOUSE EM CIMA DO BOX_CARROSSEL O FRONT_CARROSSEL VAI DESAPARECER*/
+    display: none;
+}
+
+.box_carrossel:hover{   /*QUANDO PASSAR O MOUSE EM CIMA DO BOX_CARROSSEL O BACK_CARROSSEL VAI APARECER*/
+    border: 1px solid black;
+    padding: 20px;
 }
 
 .recomendacoes{
