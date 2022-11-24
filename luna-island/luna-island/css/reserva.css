@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+}
+
+.bar{
+    filter: brightness(100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vw;
+    padding: 0 5vw;
+}
+
+nav > a{
+    margin-right: 2vw;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 1.5vw;
+}
+
+nav > a:hover{
+    border-bottom: 3px solid white;
+}
+
+.botao_user > a{
+    border-radius: 6px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 1vw 3vw;
+    background-color: #ffffff;
+    font-size: 1.5vw;
+    transition: 0.6s;
+}
+
+.botao_user > a:hover:last-child{
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+}
+
+main {
+    display: flex;
+    margin: 16px;
+}
+
+main > img {
+    width: 800px;
+    object-fit: cover;
+}
+
+main > #info-reserva {
+    margin-left: 28px;
+    width: 100%;
+    padding: 16px;
+    position: relative;
+}
+
+#info-reserva h1 {
+    margin-bottom: 36px;
+    font-size: 32px;
+    text-align: center;
+}
+
+#info-reserva h3 {
+    margin-bottom: 4px;
+}
+
+#info-reserva > div {
+    margin-top: 20px;
+}
+
+.container-cancel {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.container-cancel > button {
+    background-color: firebrick;
+    color: white;
+    border: 0;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}

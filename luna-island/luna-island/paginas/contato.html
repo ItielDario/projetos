@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luna Island - Reservas</title>
+    <link rel="stylesheet" href="../css/style1.css" />
+    <link rel="stylesheet" href="../css/contato.css" />
+  </head>
+  <body>
+    <header>
+      <div class="bar">
+        <nav>
+          <a href="../index.html">Home</a>
+          <a href="sobrenós.html">Sobre nós</a>
+          <a href="#">Contato</a>
+          <a href="pacotes.html">Pacotes</a>
+        </nav>
+
+        <div class="botao_user">
+          <a href="./login.html">Login</a>
+        </div>
+      </div>
+    </header>
+    <h1 id="title-page">Contato</h1>
+    <main>
+      <img src="../imagens/imagem_principal.jpg" />
+      <section>
+        <form id="form-contato">
+          <div class="container-input">
+            <label for="name">Nome</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="container-input-row">
+            <div class="container-input">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+            <div class="container-input">
+              <label for="phone">Celular</label>
+              <input id="phone" name="phone" type="tel" required />
+            </div>
+          </div>
+          <div class="container-input">
+            <label for="subject">Assunto</label>
+            <input id="subject" name="subject" type="text" required />
+          </div>
+          <div class="container-input">
+            <label for="mensage">Mensagem</label>
+            <textarea id="mensage" name="mensage" required rows="12"></textarea>
+          </div>
+          <button
+            type="reset"
+            onclick="alert('Mensagem enviado com sucesso. Entraremos em contato assim que possível!')"
+          >
+            Enviar
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="logo_footer">
+        <img src="../imagens/logo_preta.jpg" alt="" />
+      </div>
+
+      <div class="menu">
+        <h3>Luna Island</h3>
+        <a href="#">Home</a>
+        <a href="#">Serviços</a>
+        <a href="#">Contato</a>
+        <a href="#">Pacotes</a>
+      </div>
+
+      <div class="redes_sociais">
+        <h3>Redes Sociais</h3>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Whatsapp</a>
+        <a href="#">E-mail</a>
+      </div>
+
+      <div class="noticias">
+        <form action="">
+          <h3>Receba nossas noticías</h3>
+
+          <div class="campo">
+            <input
+              type="text"
+              name="nome"
+              id="inome"
+              placeholder="Seu nome"
+              required
+            />
+          </div>
+
+          <div class="campo">
+            <input
+              type="email"
+              name="email"
+              id="iemail"
+              placeholder="E-mail"
+              required
+            />
+          </div>
+
+          <div class="botao_assinar">
+            <input type="submit" value="Assinar" />
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
