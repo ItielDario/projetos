@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luna Island - Cadastro</title>
+    <link rel="stylesheet" href="../css/login.css" />
+
+  </head>
+  <body>
+    <a href="./login.html" id="link-go-back"> 
+      <img src="../imagens/goBackIcon.png" alt="icon-go-back" style="margin-right: 8px;"/>
+      Voltar 
+    </a>
+    <main>
+      <form action="./login.html">
+        <h1> Cadastro </h1>
+        <div class="container-input">
+          <label for="name">Nome</label>
+          <input id="name" name="name" type="text" placeholder="Digite seu nome" required/>
+        </div>
+        <div class="container-input">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Digite seu email" required/>
+        </div>
+        <div class="container-input">
+          <label for="phone">Celular</label>
+          <input id="phone" name="phone" type="tel" placeholder="(99) 99999-99999" required/>
+        </div>
+        <div class="container-input">
+          <label for="date">Data de Nascimento</label>
+          <input id="date" name="date" type="date" required/>
+        </div>
+        <div class="container-input">
+          <label for="password">Senha</label>
+          <input id="password" name="password" type="password" placeholder="Digite sua senha" required/>
+        </div>
+        <button type="submit">
+          Cadastrar
+        </button>
+        <div class="container-link-register-login">
+          <a href="./login.html">ou realize o login</a>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
