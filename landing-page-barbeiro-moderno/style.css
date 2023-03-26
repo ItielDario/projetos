@@ -1,0 +1,689 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    border: none;
+}
+
+
+
+
+
+/* PRIMEIRA DOBRA */
+header{
+    background-color: black;
+    background-image: url('./images/barbeiro-fazendo-barba.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.container-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10vw;
+    color: rgb(236, 236, 236);
+}
+
+.box-contant{
+    width: 38vw;
+}
+
+.logo{
+    width: auto;
+    height: auto;
+    margin-bottom: 3vw;
+    font-size: 2.5vw;
+    line-height: 2.2vw;
+    display: flex;
+    align-items: center;
+}
+
+.logo > img{
+    width: 7vw;
+    margin-right: 10px;
+}
+
+.headline{
+    margin-bottom: 1vw;
+}
+
+.sub-headline{
+    margin-bottom: 3vw;
+}
+
+.headline > h1{
+    font-size: 1.8vw;
+    line-height: 1.8vw;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.sub-headline > h2{
+    font-size: 1.3vw;
+    line-height: 1.4vw;
+    font-weight: 500;
+}
+
+.destaque-headline{
+    color: #bd6023;
+    text-decoration: underline;
+}
+
+.destaque-sub-headline{
+    color: #E8A36A;
+}
+
+.btn-call-to-action{
+    padding: 1vw 1.8vw;
+    border-radius: 0.8vw;
+    font-size: 1.5vw;
+    width: 100%;
+    font-weight: 700;
+    color: white;
+    background-color: #d47b31;    
+    transition: all 0.5s ease;
+}
+
+.btn-call-to-action:hover{
+    background-color: #9b4811; 
+    cursor: pointer;
+}
+
+aside{
+    margin-top: 5px;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+
+
+
+
+/* O QUE É O CURSO BARBEIRO MODERNO */
+.about-us-work, .contant-depositions{
+    background-image: url("./images/fundo-branco-com-textura.jpg");
+    background-size: cover;
+    text-align: start;
+    color: #1d1d1d;
+    padding: 3.5vw 10vw;
+    background-position: bottom;
+}
+
+.about-us-work .title{
+    font-size: 2vw;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.312);
+    color: #bd6023;
+    margin-bottom: 1.5vw;
+    text-align: center;
+}
+
+.about-us-work > .text-about-us-work{
+    font-size: 1.3vw;
+}
+
+.list-learn{
+    margin-top: 3vw;
+}
+
+.list-learn > ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.list-learn li{
+    margin-bottom: 1.3vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.3vw;
+}
+
+.list-learn li > img{
+    width: 1.5vw;
+    margin-right: 0.8vw;
+}
+
+.highlight-text{
+    color: #d66c25;
+    font-weight: 700;
+}
+
+
+
+
+
+/* QUEM EU SOU? */
+.about-us-me{
+    background-color: black;
+    background-image: url("images/foto-eu.jpg");
+    transform: rotate(360);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5vw 10vw;
+}
+
+.text-about-us-me{
+    color: rgb(255, 240, 240);
+    width: 40vw;
+}
+
+.text-about-us-me .title{
+    font-size: 2vw;
+    color: #ec7628;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.text-about-us-me .sub-title{
+    font-size: 1.3vw;
+    font-weight: 700;
+    color: #fcb78d;
+    margin-bottom: 1.3vw;
+    margin-top: -1vw;
+    text-transform: uppercase;
+}
+
+.text-about-us-me .text{
+    font-weight: 300;
+    font-size: 1.3vw;
+    line-height: 1.8vw;
+}
+
+
+
+
+
+/* DEPOIMENTOS */
+.contant-depositions .title{
+    font-size: 2vw;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.312);
+    color: #bd6023;
+    margin-bottom: 0vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contant-depositions .sub-title{
+    font-size: 1.3vw;
+    color: #1d1d1d;
+    margin-bottom: 1.5vw;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.412);
+}
+
+.box-depositions-img{
+    margin-top: 3vw;
+    margin-bottom: 1.3vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contant-depositions img{
+    border-radius: 1.5vw;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.13);
+    width: 24vw;
+    margin-top: 2vw;
+}
+
+.contant-depositions img:hover{
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.13);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* SE VOCE QUER SER: */
+.container-wanna-be{
+    background-color: black;
+    background-image: url('images/cenario-texturizado-de-parede-de-concreto-solido.jpg');
+    padding: 3.5vw 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-wanna-be .title{
+    font-size: 2vw;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.312);
+    color: #bd6023;
+    margin-bottom: 1.5vw;
+    text-align: center;
+}
+
+.container-wanna-be .list-learn{
+    margin-top: 3vw;
+}
+
+.container-wanna-be .list-learn > ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.container-wanna-be .list-learn li{
+    margin-bottom: 1.3vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.3vw;
+    color: rgb(255, 243, 234);
+}
+
+.container-wanna-be .list-learn li > img{
+    width: 1.5vw;
+    margin-right: 0.8vw;
+}
+
+.btn-main{
+    display: flex;
+    justify-content: center;
+    margin: 5vw 0;
+}
+
+.btn-call-to-action-main{
+    padding: 1vw 1.8vw;
+    border-radius: 0.8vw;
+    font-size: 1.5vw;
+    width: 100%;
+    font-weight: 700;
+    color: white;
+    background-color: #d47b31;    
+    transition: all 0.5s ease;
+}
+
+.btn-call-to-action-main:hover{
+    background-color: #9b4811; 
+    cursor: pointer;
+}
+
+
+
+
+/* FOOTER */
+footer{
+    padding: 2.5vw 10vw;
+    background-color: #0f0f0f;
+    color: rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgb(214, 214, 214);
+    font-size: 1vw;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    /* PRIMEIRA DOBRA */
+    header{
+        background-image: url('./images/barbeiro-fazendo-barba-medium.jpg');
+     
+    }
+
+    .container-header{
+        padding: 8vw;
+    }
+
+    .box-contant{
+        width: 50vw;
+    }
+    
+    .logo{
+        font-size: 4vw;
+        line-height: 3.2vw;
+    }
+    
+    .headline > h1{
+        font-size: 3vw;
+        line-height: 3vw;
+        margin-bottom: 1.7vw;
+    }
+    
+    .sub-headline > h2{
+        font-size: 2.2vw;
+        line-height: 2.5vw;
+        font-weight: 500;
+    }
+    
+    .btn-call-to-action{
+        padding: 1.2vw 0.5vw;
+        font-size: 2.3vw;
+        margin-top: 1vw;
+    }
+    
+    aside{
+        margin-top: 1vw;
+        font-size: 1.7vw;
+    }
+
+
+
+    /* O QUE É O CURSO BARBEIRO MODERNO */
+    .about-us-work{
+        padding: 3.5vw 8vw;
+    }
+
+    .about-us-work .title{
+        font-size: 2.7vw;
+        margin-bottom: 2vw;
+    }
+
+    .about-us-work > .text-about-us-work{
+        font-size: 2vw;
+    }
+
+    .list-learn{
+        margin-top: 4vw;
+    }
+
+    .list-learn li{
+        margin-bottom: 2.5vw;
+        align-items: baseline;
+        font-size: 2vw;
+    }
+
+    .list-learn li > img{
+        width: 2vw;
+        margin-right: 1vw;
+    }
+
+
+
+
+    /* QUEM EU SOU? */
+    .about-us-me{
+        background-image: url('./images/foto-eu-medium.jpg');
+        padding: 5vw 8vw;
+    }
+
+    .text-about-us-me{
+        width: 40vw;
+    }
+
+    .text-about-us-me .title{
+        font-size: 2.7vw;
+    }
+
+    .text-about-us-me .sub-title{
+        font-size: 1.8vw;
+        margin-bottom: 1.5vw;
+    }
+
+    .text-about-us-me .text{
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+
+
+
+    /* DEPOIMENTOS */
+    .contant-depositions .title{
+        font-size: 2.7vw;
+    }
+
+    .contant-depositions .sub-title{
+        font-size: 1.9vw;
+        margin-top: -1vw;
+    }
+    
+    .box-depositions-img{
+        justify-content: space-around;
+    }
+
+    .contant-depositions img{
+        width: 35vw;
+        margin-top: 4vw;
+    }
+
+
+
+
+    /* SE VOCE QUER SER: */
+    .container-wanna-be{
+        padding: 5vw 8vw;
+    }
+
+    .container-wanna-be .title{
+        font-size: 2.7vw;
+        margin-bottom: 0vw;
+    }
+
+    .container-wanna-be .list-learn li{
+        margin-bottom: 2.2vw;
+        font-size: 2vw;
+        align-items: baseline;
+    }
+
+    .container-wanna-be .list-learn li > img{
+        width: 2vw;
+        margin-right: 1vw;
+    }
+
+    .btn-main{
+        margin: 5vw 0;
+    }
+
+    .btn-call-to-action-main{
+        padding: 1.2vw 5vw;
+        font-size: 2.7vw;
+        margin-top: 1vw;
+    }
+
+
+    
+
+    /* FOOTER */
+    footer{
+        padding: 3vw 8vw;
+        font-size: 1.5vw;
+    }
+}
+
+
+
+
+@media screen and (max-width: 800px){
+    /* PRIMEIRA DOBRA */
+    header{
+        background-image: url('./images/barbeiro-fazendo-barba-small.jpg');
+    }
+
+    .container-header{
+        padding: 8vw;
+    }
+
+    .logo > img{
+        width: 10vw;
+        margin-right: 1vw;
+    }
+
+    .box-contant{
+        margin-top: 35vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .box-contant .logo{
+        font-size: 5vw;
+        line-height: 4.2vw;
+    }
+
+    .headline > h1{
+        margin-top: 5vw;
+        font-size: 4vw;
+        line-height: 4vw;
+        text-align: center;
+    }
+    
+    .sub-headline > h2{
+        font-size: 3vw;
+        line-height: 3vw;
+        text-align: center;
+    }
+    
+    .btn-call-to-action{
+        text-align: center;
+        padding: 1.5vw 0.8vw;
+        font-size: 3vw;
+        margin-top: 1vw;
+        width: 90%;
+    }
+    
+    aside{
+        margin-top: 1vw;
+        font-size: 2.3vw;
+    }
+
+
+
+    /* O QUE É O CURSO BARBEIRO MODERNO */
+    .about-us-work{
+        padding: 8vw;
+    }
+
+    .about-us-work .title{
+        font-size: 3.5vw;
+        line-height: 6vw;
+        margin-bottom: 4vw;
+    }
+
+    .about-us-work > .text-about-us-work{
+        font-size: 3vw;
+    }
+
+    .list-learn{
+        margin-top: 4vw;
+    }
+
+    .list-learn li{
+        margin-bottom: 3.5vw;
+        align-items: baseline;
+        font-size: 3vw;
+    }
+
+    .list-learn li > img{
+        width: 3vw;
+        margin-right: 1.3vw;
+    }
+
+
+
+
+    /* QUEM EU SOU? */
+    .about-us-me{
+        background-image: url('./images/foto-eu-small.jpg');
+        padding: 8vw;
+    }
+
+    .text-about-us-me{
+        width: 100%;
+        margin-top: 35vw;
+        text-align: center;
+    }
+
+    .text-about-us-me .title{
+        font-size: 3.5vw;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.342);
+    }
+
+    .text-about-us-me .sub-title{
+        font-size: 3vw;
+        margin-bottom: 5vw;
+    }
+
+    .text-about-us-me .text{
+        font-size: 3vw;
+        line-height: 3.6vw;
+    }
+
+
+
+    /* DEPOIMENTOS */
+    .contant-depositions{
+        padding: 8vw;
+    }
+
+    .contant-depositions .title{
+        font-size: 3.5vw;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.342);
+    }
+
+    .contant-depositions .sub-title{
+        font-size: 2.7vw;
+        margin-top: -1vw;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.342);
+    }
+    
+    .box-depositions-img{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contant-depositions img{
+        width: 90%;
+        margin-top: 6vw;
+    }
+
+
+
+
+    /* SE VOCE QUER SER: */
+    .container-wanna-be{
+        padding: 8vw;
+    }
+
+    .container-wanna-be .title{
+        font-size: 3.5vw;
+        margin-bottom: 2vw;
+    }
+
+    .container-wanna-be .list-learn li{
+        margin-bottom: 3.5vw;
+        font-size: 3vw;
+        align-items: baseline;
+    }
+
+    .container-wanna-be .list-learn li > img{
+        width: 3vw;
+        margin-right: 1.3vw;
+    }
+
+    .btn-main{
+        margin: 5vw 0;
+    }
+
+    .btn-call-to-action-main{
+        padding: 2.2vw 3vw;
+        font-size: 3.5vw;
+        margin-top: 1vw;
+    }
+
+
+    
+
+    /* FOOTER */
+    footer{
+        padding: 5vw 8vw;
+        font-size: 2vw;
+    }
+}
